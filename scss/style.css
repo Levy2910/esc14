@@ -237,26 +237,26 @@ body {
 }
 
 .container .center-side .center-smaller-container .center-news-feed .add-stories .friends-stories-box:nth-child(2) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url(/pic/center-side/frank-de-kock-ew82RXWpUt4-unsplash.jpg);
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url(/pic/center-side/frank-de-kock-ew82RXWpUt4-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url("/pic/center-side/frank-de-kock-ew82RXWpUt4-unsplash.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url("/pic/center-side/frank-de-kock-ew82RXWpUt4-unsplash.jpg");
   background-size: cover;
 }
 
 .container .center-side .center-smaller-container .center-news-feed .add-stories .friends-stories-box:nth-child(3) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url(/pic/center-side/lena-myzovets-_0FbtCQymbE-unsplash.jpg);
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url(/pic/center-side/lena-myzovets-_0FbtCQymbE-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url("/pic/center-side/lena-myzovets-_0FbtCQymbE-unsplash.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url("/pic/center-side/lena-myzovets-_0FbtCQymbE-unsplash.jpg");
   background-size: cover;
 }
 
 .container .center-side .center-smaller-container .center-news-feed .add-stories .friends-stories-box:nth-child(4) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url(/pic/center-side/henrik-donnestad-t2Sai-AqIpI-unsplash.jpg);
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url(/pic/center-side/henrik-donnestad-t2Sai-AqIpI-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url("/pic/center-side/henrik-donnestad-t2Sai-AqIpI-unsplash.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url("/pic/center-side/henrik-donnestad-t2Sai-AqIpI-unsplash.jpg");
   background-size: cover;
 }
 
 .container .center-side .center-smaller-container .center-news-feed .add-stories .friends-stories-box:nth-child(5) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url(/pic/center-side/max-bovkun-y6J0ZUZDwdQ-unsplash.jpg);
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url(/pic/center-side/max-bovkun-y6J0ZUZDwdQ-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.123)), to(rgba(2, 4, 14, 0.73))), url("/pic/center-side/max-bovkun-y6J0ZUZDwdQ-unsplash.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.123), rgba(2, 4, 14, 0.73)), url("/pic/center-side/max-bovkun-y6J0ZUZDwdQ-unsplash.jpg");
   background-size: cover;
 }
 
