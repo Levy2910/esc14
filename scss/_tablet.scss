@@ -1,0 +1,33 @@
+@media(max-width: 1199px) {
+    body {
+        background-color: $darkerColor;
+    }
+
+    .nav {
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: green;
+
+        .nav-entertaining {
+            display: none;
+        }
+
+        .nav-user {
+            justify-content: flex-end;
+        }
+    }
+
+
+    .container {
+
+        .center-side {
+
+            .center-smaller-container {
+                max-width: 95%;
+            }
+        }
+    }
+
+}

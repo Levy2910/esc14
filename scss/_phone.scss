@@ -1,0 +1,60 @@
+@media (max-width: 992px) {
+    body {
+        background-color: green;
+    }
+
+    .nav {
+        padding: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-center {
+            display: none;
+        }
+
+        .nav-brand {
+            font-size: 1em;
+        }
+
+        .nav-user {
+            visibility: hidden;
+
+            .phone_only {
+                visibility: visible !important;
+            }
+        }
+    }
+
+    .nav-phone {
+        visibility: visible;
+        position: fixed;
+        bottom: 0;
+    }
+
+    // content
+    .container {
+        grid-template-columns: 1fr;
+
+        .left-side {
+            display: none;
+        }
+
+        .center-side {
+            width: 100%;
+
+            .center-smaller-container {
+                width: 100%;
+                padding: 1em;
+            }
+
+            .center-adding-friends {
+                display: none;
+            }
+        }
+
+        .right-side {
+            display: none;
+        }
+    }
+}

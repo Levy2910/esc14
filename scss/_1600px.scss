@@ -1,0 +1,26 @@
+@media (max-width: 1599px) {
+    body {}
+
+    .nav {
+        background-color: red;
+    }
+
+    .container {
+        grid-template-columns: 1fr auto;
+
+        .center-side {
+
+            .center-smaller-container {
+                width: 95%;
+            }
+        }
+
+
+
+        .right-side {
+            visibility: hidden;
+            display: none;
+        }
+    }
+
+}
