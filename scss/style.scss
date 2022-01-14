@@ -9,6 +9,7 @@ sans-serif;
 $Montserrat: 'Montserrat',
 sans-serif;
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -91,12 +92,31 @@ body {
         .nav-user-control {
             cursor: pointer;
 
+            .spinning {
+                @keyframes spin {
+                    from {
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+
+                display: inline;
+                animation-name: spin;
+                animation-duration: 3000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
             .phone_only {
                 visibility: hidden;
             }
         }
     }
 }
+
 
 // additional menu for phone
 .nav-phone {
