@@ -104,6 +104,48 @@ body {
   cursor: pointer;
 }
 
+.nav .nav-user .nav-user-control .notification {
+  position: fixed;
+  background-color: #1A2236;
+  color: white;
+  right: 12.5%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 1em;
+  width: 250px;
+}
+
+.nav .nav-user .nav-user-control .notification h2 {
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+  width: 100%;
+  border-bottom: 1px salmon solid;
+}
+
+.nav .nav-user .nav-user-control .notification .notification-item {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-user .nav-user-control .notification .notification-item img {
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+.nav .nav-user .nav-user-control .notification.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .nav .nav-user .nav-user-control .spinning {
   display: inline;
   -webkit-animation-name: spin;
@@ -156,6 +198,19 @@ body {
   cursor: pointer;
   padding: 0.7em;
   visibility: hidden;
+}
+
+.container.hide-right-side {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 5fr;
+      grid-template-columns: auto 5fr;
+}
+
+.container.hide-right-side .right-side {
+  visibility: hidden;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 .container {
